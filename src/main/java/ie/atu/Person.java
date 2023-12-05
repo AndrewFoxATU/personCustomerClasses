@@ -40,8 +40,8 @@ public  class Person {
         this.phoneNum = phoneNum;
     }
 
-    @java.lang.Override
-    public java.lang.String toString() {
+    @Override
+    public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", address='" + address + '\'' +
