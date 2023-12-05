@@ -15,7 +15,7 @@ public class Customer extends Person{
 
     @Override
     public String toString() {
-        return "Customer{" +
+        return "Customer{" + super.toSting() +
                 "custNo='" + custNo + '\'' +
                 ", mailingList=" + mailingList +
                 '}';
